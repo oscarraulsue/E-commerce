@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="container-fluid position-sticky top-0 bg-dark text-white">
+        <ul class="nav nav-pills mb-3 py-3 container" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                    type="button" role="tab" aria-controls="pills-home" aria-selected="true">Inicio</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Niñas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-profile1-tab" data-bs-toggle="pill" data-bs-target="#pills-profile1"
+                    type="button" role="tab" aria-controls="pills-profile1" aria-selected="false">Niños</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito<i
+                        class="fas fa-shopping-cart"></i></a>
+                <span id="cart_menu_num" data-action="cart-can" class="badge rounded-circle">5</span>
+            </li>
+        </ul>
+    </header>
+
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active container" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <h2 class="h4 m-4 text-primary">Inicio</h2>
+            <div class="card mb-3">
+                <img src="./imagenes/niñasPortada.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+                <img src="./imagenes/niñosPortada.jpg" class="card-img-bottom" alt="...">
+              </div>
+
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab">
+            <h2 class="h4 text-center">Vestuario Niñas</h2>
+
+            <!-- cards -->
+            <div class="row row-cols-1 row-cols-md-2 g-4 ">
+                <div class="col cardtext-dark ">
+                    <div class="cardtext-dark ">
+                        <img src="./imagenes/niñas1.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pijama Dalmatas para Niñas</h5>
+                            <h5 class="precio">Precio: 20.000</h5>
+                                <button class="btn button">Añadir a Carrito</button><button class="btn button">Ver Detalle</button>
+                            </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cardtext-dark ">
+                        <img src="./imagenes/niñas2.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Pijama Dalmatas para Niñas</h5>
+                               <h5 class="precio">Precio: 20.000</h5>
+                                <button class="btn button">Añadir a Carrito</button>
+                                <button class="btn button">Ver Detalle</button>
+            </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cardtext-dark">
+                        <img src="./imagenes/niñas3.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h5 class="precio">Precio: 20.000</h5>
+                                <button class="btn button">Añadir a Carrito</button>
+                                <button class="btn button">Ver Detalle</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="cardtext-dark ">
+                        <img src="./imagenes/nias4.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <h5 class="precio">Precio: 20.000</h5>
+                                <button class="btn button">Añadir a Carrito</button>
+                                <button class="btn button">Ver Detalle</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin -->
+        </div>
+        <div class="tab-pane fade" id="pills-profile1" role="tabpanel"
+        aria-labelledby="pills-profile1-tab">
+        <h2 class="h4 m-4 text-primary text-center">Vestuario Niños</h2>
+            <!-- cards -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin -->
+            </div>
+            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <h2 class="h4 m-4 text-primary">Carrito</h2>
+
+                <table class="table table-striped table-dark container  ">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">precio</th>
+                            <th scope="col">cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <th scope="row">1</th>
+                            <td class="table__productos">
+                                <img src="./images/Chicken.png" alt="">
+                                <h6 class="title">Pollo</h6>
+                            </td>
+                            <td class="table__price">
+                                <p>20.000</p>
+                            </td>
+                            <td class="table__cantidad">
+                                <input type="number" min="1" value="1" class="input__elemento">
+                                <button class="delete btn btn-danger">x</button>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <br>
+                <br>
+
+                <div class="row mx-4">
+                    <div class="col">
+                        <h3 class="text-white">Total: 0</h3>
+                    </div>
+                    <div class="col d-flex justify-content-end">
+                        <button class="btn btn-success">COMPRAR</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <footer>Contáctenos al Nro. +57 XXX XXX XX XX, Nuestras Redes Son <a
+                href="https://www.freecodecamp.org/espanol/fcc4dc12f76-a92d-45ad-9896-ea56a13a79d9">@Free</a></footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
